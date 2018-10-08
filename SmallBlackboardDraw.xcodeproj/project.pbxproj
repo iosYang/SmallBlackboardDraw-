@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E138DB61EACF04400B74AD9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E138DB51EACF04400B74AD9 /* Launch Screen.storyboard */; };
+		9B48C09F1A2EA818007E39D8 /* BeginImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B48C09E1A2EA818007E39D8 /* BeginImageContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BCDBCC41A2FFC4C00FF0DED /* CYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDBCC21A2FFC4C00FF0DED /* CYMainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BCDBCC51A2FFC4C00FF0DED /* CYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDBCC31A2FFC4C00FF0DED /* CYMainViewController.xib */; };
+		9BCDBCCE1A30013100FF0DED /* CYShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDBCCC1A30013100FF0DED /* CYShowViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BCDBCCF1A30013100FF0DED /* CYShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDBCCD1A30013100FF0DED /* CYShowViewController.xib */; };
+		9BCDBCEE1A30107E00FF0DED /* cancelBtn_bg_15_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDBCE81A30107E00FF0DED /* cancelBtn_bg_15_16@2x.png */; };
+		9BCDBCF01A30107E00FF0DED /* drawPenPoint_bg_26_26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDBCEA1A30107E00FF0DED /* drawPenPoint_bg_26_26@2x.png */; };
+		9BCDBCF21A30107E00FF0DED /* revocationBtn_bg_15_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDBCEC1A30107E00FF0DED /* revocationBtn_bg_15_16@2x.png */; };
+		9BCDEEA91A2EA2020023B9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEA81A2EA2020023B9E0 /* Foundation.framework */; };
+		9BCDEEAB1A2EA2020023B9E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEAA1A2EA2020023B9E0 /* CoreGraphics.framework */; };
+		9BCDEEAD1A2EA2020023B9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEAC1A2EA2020023B9E0 /* UIKit.framework */; };
+		9BCDEEB31A2EA2020023B9E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDEEB11A2EA2020023B9E0 /* InfoPlist.strings */; };
+		9BCDEEB51A2EA2020023B9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDEEB41A2EA2020023B9E0 /* main.m */; };
+		9BCDEEB91A2EA2020023B9E0 /* CYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDEEB81A2EA2020023B9E0 /* CYAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BCDEEBB1A2EA2020023B9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDEEBA1A2EA2020023B9E0 /* Images.xcassets */; };
+		9BCDEEC21A2EA2020023B9E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEC11A2EA2020023B9E0 /* XCTest.framework */; };
+		9BCDEEC31A2EA2020023B9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEA81A2EA2020023B9E0 /* Foundation.framework */; };
+		9BCDEEC41A2EA2020023B9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCDEEAC1A2EA2020023B9E0 /* UIKit.framework */; };
+		9BCDEECC1A2EA2020023B9E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDEECA1A2EA2020023B9E0 /* InfoPlist.strings */; };
+		9BCDEECE1A2EA2020023B9E0 /* SmallBlackboardDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDEECD1A2EA2020023B9E0 /* SmallBlackboardDrawTests.m */; };
+		9BCDEEDB1A2EA2D90023B9E0 /* CYDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDEED91A2EA2D90023B9E0 /* CYDrawViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BCDEEDC1A2EA2D90023B9E0 /* CYDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDEEDA1A2EA2D90023B9E0 /* CYDrawViewController.xib */; };
+		9BCDEEE01A2EA5530023B9E0 /* PIDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDEEDF1A2EA5530023B9E0 /* PIDrawerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BCDEEC51A2EA2020023B9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCDEE9D1A2EA2020023B9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCDEEA41A2EA2020023B9E0;
+			remoteInfo = SmallBlackboardDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E138DB51EACF04400B74AD9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9B48C09D1A2EA818007E39D8 /* BeginImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginImageContext.h; sourceTree = "<group>"; };
+		9B48C09E1A2EA818007E39D8 /* BeginImageContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginImageContext.m; sourceTree = "<group>"; };
+		9BCDBCC11A2FFC4C00FF0DED /* CYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMainViewController.h; sourceTree = "<group>"; };
+		9BCDBCC21A2FFC4C00FF0DED /* CYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMainViewController.m; sourceTree = "<group>"; };
+		9BCDBCC31A2FFC4C00FF0DED /* CYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYMainViewController.xib; sourceTree = "<group>"; };
+		9BCDBCCB1A30013100FF0DED /* CYShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYShowViewController.h; sourceTree = "<group>"; };
+		9BCDBCCC1A30013100FF0DED /* CYShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYShowViewController.m; sourceTree = "<group>"; };
+		9BCDBCCD1A30013100FF0DED /* CYShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYShowViewController.xib; sourceTree = "<group>"; };
+		9BCDBCE81A30107E00FF0DED /* cancelBtn_bg_15_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelBtn_bg_15_16@2x.png"; sourceTree = "<group>"; };
+		9BCDBCEA1A30107E00FF0DED /* drawPenPoint_bg_26_26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drawPenPoint_bg_26_26@2x.png"; sourceTree = "<group>"; };
+		9BCDBCEC1A30107E00FF0DED /* revocationBtn_bg_15_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "revocationBtn_bg_15_16@2x.png"; sourceTree = "<group>"; };
+		9BCDEEA51A2EA2020023B9E0 /* SmallBlackboardDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallBlackboardDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCDEEA81A2EA2020023B9E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BCDEEAA1A2EA2020023B9E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BCDEEAC1A2EA2020023B9E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BCDEEB01A2EA2020023B9E0 /* SmallBlackboardDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmallBlackboardDraw-Info.plist"; sourceTree = "<group>"; };
+		9BCDEEB21A2EA2020023B9E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BCDEEB41A2EA2020023B9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCDEEB61A2EA2020023B9E0 /* SmallBlackboardDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmallBlackboardDraw-Prefix.pch"; sourceTree = "<group>"; };
+		9BCDEEB71A2EA2020023B9E0 /* CYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAppDelegate.h; sourceTree = "<group>"; };
+		9BCDEEB81A2EA2020023B9E0 /* CYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAppDelegate.m; sourceTree = "<group>"; };
+		9BCDEEBA1A2EA2020023B9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BCDEEC01A2EA2020023B9E0 /* SmallBlackboardDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallBlackboardDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCDEEC11A2EA2020023B9E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9BCDEEC91A2EA2020023B9E0 /* SmallBlackboardDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmallBlackboardDrawTests-Info.plist"; sourceTree = "<group>"; };
+		9BCDEECB1A2EA2020023B9E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BCDEECD1A2EA2020023B9E0 /* SmallBlackboardDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallBlackboardDrawTests.m; sourceTree = "<group>"; };
+		9BCDEED81A2EA2D90023B9E0 /* CYDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDrawViewController.h; sourceTree = "<group>"; };
+		9BCDEED91A2EA2D90023B9E0 /* CYDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDrawViewController.m; sourceTree = "<group>"; };
+		9BCDEEDA1A2EA2D90023B9E0 /* CYDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYDrawViewController.xib; sourceTree = "<group>"; };
+		9BCDEEDE1A2EA5530023B9E0 /* PIDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDrawerView.h; sourceTree = "<group>"; };
+		9BCDEEDF1A2EA5530023B9E0 /* PIDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDrawerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCDEEA21A2EA2020023B9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDEEAB1A2EA2020023B9E0 /* CoreGraphics.framework in Frameworks */,
+				9BCDEEAD1A2EA2020023B9E0 /* UIKit.framework in Frameworks */,
+				9BCDEEA91A2EA2020023B9E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCDEEBD1A2EA2020023B9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDEEC21A2EA2020023B9E0 /* XCTest.framework in Frameworks */,
+				9BCDEEC41A2EA2020023B9E0 /* UIKit.framework in Frameworks */,
+				9BCDEEC31A2EA2020023B9E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B48C0A01A2EB806007E39D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDBCE61A30107E00FF0DED /* draw_Tool_Imgs */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9BCDBCE61A30107E00FF0DED /* draw_Tool_Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDBCE81A30107E00FF0DED /* cancelBtn_bg_15_16@2x.png */,
+				9BCDBCEA1A30107E00FF0DED /* drawPenPoint_bg_26_26@2x.png */,
+				9BCDBCEC1A30107E00FF0DED /* revocationBtn_bg_15_16@2x.png */,
+			);
+			path = draw_Tool_Imgs;
+			sourceTree = "<group>";
+		};
+		9BCDEE9C1A2EA2020023B9E0 = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEAE1A2EA2020023B9E0 /* SmallBlackboardDraw */,
+				9BCDEEC71A2EA2020023B9E0 /* SmallBlackboardDrawTests */,
+				9BCDEEA71A2EA2020023B9E0 /* Frameworks */,
+				9BCDEEA61A2EA2020023B9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCDEEA61A2EA2020023B9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEA51A2EA2020023B9E0 /* SmallBlackboardDraw.app */,
+				9BCDEEC01A2EA2020023B9E0 /* SmallBlackboardDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCDEEA71A2EA2020023B9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEA81A2EA2020023B9E0 /* Foundation.framework */,
+				9BCDEEAA1A2EA2020023B9E0 /* CoreGraphics.framework */,
+				9BCDEEAC1A2EA2020023B9E0 /* UIKit.framework */,
+				9BCDEEC11A2EA2020023B9E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCDEEAE1A2EA2020023B9E0 /* SmallBlackboardDraw */ = {
+			isa = PBXGroup;
+			children = (
+				9B48C0A01A2EB806007E39D8 /* Images */,
+				9BCDEEB71A2EA2020023B9E0 /* CYAppDelegate.h */,
+				9BCDEEB81A2EA2020023B9E0 /* CYAppDelegate.m */,
+				9BCDEED71A2EA2AE0023B9E0 /* viewControllers */,
+				9BCDEEBA1A2EA2020023B9E0 /* Images.xcassets */,
+				9BCDEEAF1A2EA2020023B9E0 /* Supporting Files */,
+				3E138DB51EACF04400B74AD9 /* Launch Screen.storyboard */,
+			);
+			path = SmallBlackboardDraw;
+			sourceTree = "<group>";
+		};
+		9BCDEEAF1A2EA2020023B9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEB01A2EA2020023B9E0 /* SmallBlackboardDraw-Info.plist */,
+				9BCDEEB11A2EA2020023B9E0 /* InfoPlist.strings */,
+				9BCDEEB41A2EA2020023B9E0 /* main.m */,
+				9BCDEEB61A2EA2020023B9E0 /* SmallBlackboardDraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCDEEC71A2EA2020023B9E0 /* SmallBlackboardDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEECD1A2EA2020023B9E0 /* SmallBlackboardDrawTests.m */,
+				9BCDEEC81A2EA2020023B9E0 /* Supporting Files */,
+			);
+			path = SmallBlackboardDrawTests;
+			sourceTree = "<group>";
+		};
+		9BCDEEC81A2EA2020023B9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEC91A2EA2020023B9E0 /* SmallBlackboardDrawTests-Info.plist */,
+				9BCDEECA1A2EA2020023B9E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCDEED71A2EA2AE0023B9E0 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDEEDD1A2EA52B0023B9E0 /* views */,
+				9BCDBCC11A2FFC4C00FF0DED /* CYMainViewController.h */,
+				9BCDBCC21A2FFC4C00FF0DED /* CYMainViewController.m */,
+				9BCDBCC31A2FFC4C00FF0DED /* CYMainViewController.xib */,
+				9BCDBCCB1A30013100FF0DED /* CYShowViewController.h */,
+				9BCDBCCC1A30013100FF0DED /* CYShowViewController.m */,
+				9BCDBCCD1A30013100FF0DED /* CYShowViewController.xib */,
+				9BCDEED81A2EA2D90023B9E0 /* CYDrawViewController.h */,
+				9BCDEED91A2EA2D90023B9E0 /* CYDrawViewController.m */,
+				9BCDEEDA1A2EA2D90023B9E0 /* CYDrawViewController.xib */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		9BCDEEDD1A2EA52B0023B9E0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9B48C09D1A2EA818007E39D8 /* BeginImageContext.h */,
+				9B48C09E1A2EA818007E39D8 /* BeginImageContext.m */,
+				9BCDEEDE1A2EA5530023B9E0 /* PIDrawerView.h */,
+				9BCDEEDF1A2EA5530023B9E0 /* PIDrawerView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCDEEA41A2EA2020023B9E0 /* SmallBlackboardDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCDEED11A2EA2020023B9E0 /* Build configuration list for PBXNativeTarget "SmallBlackboardDraw" */;
+			buildPhases = (
+				9BCDEEA11A2EA2020023B9E0 /* Sources */,
+				9BCDEEA21A2EA2020023B9E0 /* Frameworks */,
+				9BCDEEA31A2EA2020023B9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallBlackboardDraw;
+			productName = SmallBlackboardDraw;
+			productReference = 9BCDEEA51A2EA2020023B9E0 /* SmallBlackboardDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BCDEEBF1A2EA2020023B9E0 /* SmallBlackboardDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCDEED41A2EA2020023B9E0 /* Build configuration list for PBXNativeTarget "SmallBlackboardDrawTests" */;
+			buildPhases = (
+				9BCDEEBC1A2EA2020023B9E0 /* Sources */,
+				9BCDEEBD1A2EA2020023B9E0 /* Frameworks */,
+				9BCDEEBE1A2EA2020023B9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCDEEC61A2EA2020023B9E0 /* PBXTargetDependency */,
+			);
+			name = SmallBlackboardDrawTests;
+			productName = SmallBlackboardDrawTests;
+			productReference = 9BCDEEC01A2EA2020023B9E0 /* SmallBlackboardDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCDEE9D1A2EA2020023B9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CeYu;
+				TargetAttributes = {
+					9BCDEEBF1A2EA2020023B9E0 = {
+						TestTargetID = 9BCDEEA41A2EA2020023B9E0;
+					};
+				};
+			};
+			buildConfigurationList = 9BCDEEA01A2EA2020023B9E0 /* Build configuration list for PBXProject "SmallBlackboardDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BCDEE9C1A2EA2020023B9E0;
+			productRefGroup = 9BCDEEA61A2EA2020023B9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCDEEA41A2EA2020023B9E0 /* SmallBlackboardDraw */,
+				9BCDEEBF1A2EA2020023B9E0 /* SmallBlackboardDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCDEEA31A2EA2020023B9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDBCEE1A30107E00FF0DED /* cancelBtn_bg_15_16@2x.png in Resources */,
+				9BCDEEB31A2EA2020023B9E0 /* InfoPlist.strings in Resources */,
+				9BCDBCF01A30107E00FF0DED /* drawPenPoint_bg_26_26@2x.png in Resources */,
+				3E138DB61EACF04400B74AD9 /* Launch Screen.storyboard in Resources */,
+				9BCDBCC51A2FFC4C00FF0DED /* CYMainViewController.xib in Resources */,
+				9BCDEEDC1A2EA2D90023B9E0 /* CYDrawViewController.xib in Resources */,
+				9BCDBCF21A30107E00FF0DED /* revocationBtn_bg_15_16@2x.png in Resources */,
+				9BCDBCCF1A30013100FF0DED /* CYShowViewController.xib in Resources */,
+				9BCDEEBB1A2EA2020023B9E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCDEEBE1A2EA2020023B9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDEECC1A2EA2020023B9E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCDEEA11A2EA2020023B9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDEEB91A2EA2020023B9E0 /* CYAppDelegate.m in Sources */,
+				9BCDBCCE1A30013100FF0DED /* CYShowViewController.m in Sources */,
+				9B48C09F1A2EA818007E39D8 /* BeginImageContext.m in Sources */,
+				9BCDEEB51A2EA2020023B9E0 /* main.m in Sources */,
+				9BCDEEE01A2EA5530023B9E0 /* PIDrawerView.m in Sources */,
+				9BCDEEDB1A2EA2D90023B9E0 /* CYDrawViewController.m in Sources */,
+				9BCDBCC41A2FFC4C00FF0DED /* CYMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCDEEBC1A2EA2020023B9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCDEECE1A2EA2020023B9E0 /* SmallBlackboardDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BCDEEC61A2EA2020023B9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCDEEA41A2EA2020023B9E0 /* SmallBlackboardDraw */;
+			targetProxy = 9BCDEEC51A2EA2020023B9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BCDEEB11A2EA2020023B9E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCDEEB21A2EA2020023B9E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BCDEECA1A2EA2020023B9E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCDEECB1A2EA2020023B9E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCDEECF1A2EA2020023B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BCDEED01A2EA2020023B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCDEED21A2EA2020023B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallBlackboardDraw/SmallBlackboardDraw-Prefix.pch";
+				INFOPLIST_FILE = "SmallBlackboardDraw/SmallBlackboardDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BCDEED31A2EA2020023B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallBlackboardDraw/SmallBlackboardDraw-Prefix.pch";
+				INFOPLIST_FILE = "SmallBlackboardDraw/SmallBlackboardDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BCDEED51A2EA2020023B9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmallBlackboardDraw.app/SmallBlackboardDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallBlackboardDraw/SmallBlackboardDraw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmallBlackboardDrawTests/SmallBlackboardDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9BCDEED61A2EA2020023B9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmallBlackboardDraw.app/SmallBlackboardDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallBlackboardDraw/SmallBlackboardDraw-Prefix.pch";
+				INFOPLIST_FILE = "SmallBlackboardDrawTests/SmallBlackboardDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCDEEA01A2EA2020023B9E0 /* Build configuration list for PBXProject "SmallBlackboardDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCDEECF1A2EA2020023B9E0 /* Debug */,
+				9BCDEED01A2EA2020023B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCDEED11A2EA2020023B9E0 /* Build configuration list for PBXNativeTarget "SmallBlackboardDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCDEED21A2EA2020023B9E0 /* Debug */,
+				9BCDEED31A2EA2020023B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCDEED41A2EA2020023B9E0 /* Build configuration list for PBXNativeTarget "SmallBlackboardDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCDEED51A2EA2020023B9E0 /* Debug */,
+				9BCDEED61A2EA2020023B9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCDEE9D1A2EA2020023B9E0 /* Project object */;
+}

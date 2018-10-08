@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D06899FA-3A97-41E0-9444-459EFBE0077F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SmallBlackboardDraw</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6DE7E4C-A9B2-410D-9936-D0C9BD4AE233</key>
+		<string>svn://115.28.150.191/demo/yangqi</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SmallBlackboardDraw/SmallBlackboardDraw.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6DE7E4C-A9B2-410D-9936-D0C9BD4AE233</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>B6DE7E4C-A9B2-410D-9936-D0C9BD4AE233</key>
+		<string>svn://115.28.150.191/demo</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://115.28.150.191/demo/yangqi/SmallBlackboardDraw/SmallBlackboardDraw.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6DE7E4C-A9B2-410D-9936-D0C9BD4AE233</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6DE7E4C-A9B2-410D-9936-D0C9BD4AE233</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yangqi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
